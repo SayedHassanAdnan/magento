@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32ccde13a449d0a28ed622c7449000fd",
+    "content-hash": "0129122d63fba08f498bef0127ad896a",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -16542,6 +16542,52 @@
                 "AFL-3.0"
             ],
             "description": "eCommerce Platform for Growth (Community Edition)"
+        },
+        {
+            "name": "magento/sample-data-media",
+            "version": "100.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/sample-data-media/magento-sample-data-media-100.4.0.0.zip",
+                "shasum": "33caf16bf82e557b63b0891d5656f8836385a66a"
+            },
+            "type": "magento2-component",
+            "extra": {
+                "map": [
+                    [
+                        "*",
+                        "pub/media"
+                    ]
+                ]
+            },
+            "description": "Sample Data media files"
+        },
+        {
+            "name": "magento/sample-data-media-venia",
+            "version": "0.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/sample-data-media-venia/magento-sample-data-media-venia-0.0.4.0.zip",
+                "shasum": "901a0c7e8c222c16852fdcdc98905ec41080932b"
+            },
+            "type": "magento2-component",
+            "extra": {
+                "map": [
+                    [
+                        "catalog/*",
+                        "pub/media/catalog"
+                    ],
+                    [
+                        "downloadable/*",
+                        "pub/media/downloadable"
+                    ],
+                    [
+                        "wysiwyg/*",
+                        "pub/media/wysiwyg"
+                    ]
+                ]
+            },
+            "description": "Sample Data media files"
         },
         {
             "name": "magento/security-package",
